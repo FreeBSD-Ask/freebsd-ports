@@ -1,17 +1,18 @@
-# Created by: Thiago Rocha <thiago.rocha@bsd.com.br>
+# Created by: Simeo Reig <reig.simeo@gmail.com>
+# $FreeBSD: tags/RELEASE_13_0_0/java/wildfly24/Makefile 536694 2020-05-27 14:55:03Z danfe $
 
-PORTNAME=	wildfly25
-PORTVERSION=	25.0.1
+PORTNAME=	wildfly24
+PORTVERSION=	24.0.1
 CATEGORIES=	java www
-MASTER_SITES=	https://github.com/wildfly/wildfly/releases/download/${WILDFLY_VERSION}/
-DISTNAME=	wildfly-preview-${WILDFLY_VERSION}
+MASTER_SITES=	https://download.jboss.org/wildfly/${WILDFLY_VERSION}/
+DISTNAME=	wildfly-${WILDFLY_VERSION}
 
-MAINTAINER=	thiago.rocha@bsd.com.br
+MAINTAINER=	reig.simeo@gmail.com
 COMMENT=	Java Jakarta EE8 application server developed by Red Hat
 
 LICENSE=	GPLv2
 
-USE_RC_SUBR=	wildfly25
+USE_RC_SUBR=	wildfly24
 USE_JAVA=	yes
 
 JAVA_VERSION=	1.8+
@@ -52,6 +53,8 @@ CONFIG_FILES=	appclient/configuration/appclient.xml \
 		standalone/configuration/standalone-full.xml \
 		standalone/configuration/standalone-ha.xml \
 		standalone/configuration/standalone-load-balancer.xml \
+		standalone/configuration/standalone-microprofile.xml \
+		standalone/configuration/standalone-microprofile-ha.xml \
 		standalone/configuration/standalone.xml
 
 do-build:

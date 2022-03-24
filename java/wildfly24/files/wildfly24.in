@@ -1,6 +1,8 @@
 #!/bin/sh
 #
 # %%APP_SHORTNAME%% startup script.
+# $FreeBSD: tags/RELEASE_13_0_0/java/wildfly18/files/wildfly18.in 521563 2019-12-30 18:44:40Z pi $
+#
 
 # PROVIDE: %%APP_SHORTNAME%%
 # REQUIRE: NETWORKING SERVERS
