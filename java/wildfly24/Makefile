@@ -1,13 +1,10 @@
-# Created by: Simeo Reig <reig.simeo@gmail.com>
-# $FreeBSD: tags/RELEASE_13_0_0/java/wildfly24/Makefile 536694 2020-05-27 14:55:03Z danfe $
-
 PORTNAME=	wildfly24
 PORTVERSION=	24.0.1
 CATEGORIES=	java www
 MASTER_SITES=	https://download.jboss.org/wildfly/${WILDFLY_VERSION}/
 DISTNAME=	wildfly-${WILDFLY_VERSION}
 
-MAINTAINER=	reig.simeo@gmail.com
+MAINTAINER=	1926646575@qq.com
 COMMENT=	Java Jakarta EE8 application server developed by Red Hat
 
 LICENSE=	GPLv2
