@@ -1,0 +1,5 @@
+TIMESTAMP = 1690639306
+SHA256 (raspberrypi-firmware-1.20230405-055e044_GH0.tar.gz) = a45b7c6e726f14007399ca7b76560bf434734f29b0c1867d5842ef6ecfe200fd
+SIZE (raspberrypi-firmware-1.20230405-055e044_GH0.tar.gz) = 187673952
+SHA256 (FreeBSD-Ask-rpi3-psci-monitor-1f4e170_GH0.tar.gz) = 9e9721fcdbe251f0a0447627dd1d19cc39eb1edf373259dfeb5beb149892a0bd
+SIZE (FreeBSD-Ask-rpi3-psci-monitor-1f4e170_GH0.tar.gz) = 5927
